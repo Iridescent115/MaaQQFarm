@@ -1,0 +1,145 @@
+{
+  "agent": {
+    "agents": [],
+    "cardExpanded": false
+  },
+  "controller": {
+    "adbAddress": "FMR0224606040991",
+    "adbConfig": "{}",
+    "adbPath": "C:/Users/11581/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/adb.exe",
+    "controllerType": "adb",
+    "desktopClassFilter": "",
+    "desktopClassName": "",
+    "desktopHwnd": "",
+    "desktopScreencapMethod": "1",
+    "desktopWindowName": "",
+    "desktopWindowRegex": "",
+    "gamepadType": "0",
+    "inputMethod": "1",
+    "interfaceControllerName": "安卓端",
+    "playcoverAddress": "",
+    "playcoverUuid": "",
+    "screencapMethod": "2",
+    "selectedAdbDevice": "FMR0224606040991-C:/Users/11581/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/adb.exe (FMR0224606040991)",
+    "selectedDesktopWindow": "",
+    "win32KeyboardMethod": "1",
+    "win32MouseMethod": "1",
+    "wlrootSocketPath": ""
+  },
+  "debugWorkspaceSettings": {
+    "autoCollapseLeftTabsOnRunStart": true,
+    "checkPipeline": true,
+    "checkPipelineNotifyLevel": "ERROR",
+    "leftTabsCollapsed": true,
+    "preventResourceLoaded": true,
+    "watchResourceChange": true,
+    "watchResourceChangeInterval": 1000
+  },
+  "editorSettings": {
+    "fontSize": 15,
+    "maxHeight": 720,
+    "minHeight": 420
+  },
+  "interface": {
+    "path": "E:\\Program\\MaaQQFarm\\assets\\interface.json"
+  },
+  "lastCheck": 1778128017,
+  "resource": {
+    "activeProfileId": 1,
+    "profiles": [
+      {
+        "id": 0,
+        "name": "Default",
+        "paths": [],
+        "source": "manual"
+      },
+      {
+        "id": 1,
+        "name": "官服",
+        "paths": [
+          {
+            "enabled": true,
+            "id": 0,
+            "path": "E:\\Program\\MaaQQFarm\\assets\\resource"
+          }
+        ],
+        "source": "interface"
+      }
+    ]
+  },
+  "shortcuts": {
+    "shortcuts": {
+      "task.startStop": {
+        "binding": "P",
+        "defaultBinding": "P",
+        "label": "Start / Stop Task"
+      }
+    }
+  },
+  "task": {
+    "interfaceLanguages": {},
+    "interfaceLocaleValues": {},
+    "interfaceTasks": [
+      {
+        "entry": "FindAboutPhone",
+        "name": "找到关于手机",
+        "source": "E:\\Program\\MaaQQFarm\\assets\\interface.json",
+        "source_interface": "E:\\Program\\MaaQQFarm\\assets\\interface.json"
+      },
+      {
+        "entry": "MyTask1",
+        "name": "普通任务",
+        "source": "E:\\Program\\MaaQQFarm\\assets\\interface.json",
+        "source_interface": "E:\\Program\\MaaQQFarm\\assets\\interface.json"
+      },
+      {
+        "entry": "MyTask2",
+        "name": "选项任务",
+        "option_defs": [
+          {
+            "name": "任务选项1"
+          }
+        ],
+        "options": [
+          "任务选项1"
+        ],
+        "source": "E:\\Program\\MaaQQFarm\\assets\\interface.json",
+        "source_interface": "E:\\Program\\MaaQQFarm\\assets\\interface.json"
+      },
+      {
+        "entry": "MyTask3",
+        "name": "参数任务",
+        "option_defs": [
+          {
+            "name": "任务选项1"
+          }
+        ],
+        "options": [
+          "任务选项1"
+        ],
+        "source": "E:\\Program\\MaaQQFarm\\assets\\interface.json",
+        "source_interface": "E:\\Program\\MaaQQFarm\\assets\\interface.json"
+      },
+      {
+        "entry": "MyTask4",
+        "name": "带Custom的任务",
+        "source": "E:\\Program\\MaaQQFarm\\assets\\interface.json",
+        "source_interface": "E:\\Program\\MaaQQFarm\\assets\\interface.json"
+      }
+    ],
+    "manualOverrideJson": "{}",
+    "overrideJson": "{}",
+    "selectedEntry": "FindAboutPhone",
+    "selectedInputValues": [],
+    "selectedInterfaceLanguage": "",
+    "selectedInterfaceTaskName": "找到关于手机",
+    "selectedOptionCases": [],
+    "taskLaunchMode": "manual"
+  },
+  "taskDetailSettings": {
+    "nodePageSize": 20,
+    "reverseNodeOrder": true,
+    "showActionId": true,
+    "showRecoId": true
+  }
+}

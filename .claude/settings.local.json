@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:maafw.com)"
+      "WebFetch(domain:maafw.com)",
+      "Bash(conda run *)",
+      "Bash(Select-String \"Location\")"
     ]
   }
 }
